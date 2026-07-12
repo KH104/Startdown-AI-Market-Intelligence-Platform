@@ -11,48 +11,6 @@ AI-driven market intelligence and lead generation platform designed to help busi
 - **Workflow Automation**: Export, outreach, alerts, and notifications
 - **Analytics Dashboard**: Real-time insights and competitive intelligence
 
-## Quick Start
-
-### Prerequisites
-
-- Python 3.8+
-- pip
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd startdown
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set up environment variables:
-```bash
-cp .env.example .env
-# Edit .env with your configuration
-```
-
-4. Run database migrations:
-```bash
-alembic upgrade head
-```
-
-5. Start the development server:
-```bash
-python main.py
-```
-
-The API will be available at `http://localhost:8000`
-
-### API Documentation
-
-- Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
 
 ## Project Structure
 
